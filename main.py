@@ -145,7 +145,7 @@ async def find(ctx, firstname=None, lastname=''):
                 {}
                 {}
                 """.format(dict["position_title"], dict["email"]))
-                embed.set_author(name="CIS Data Fetcher", url="https://my.cis.edu.sg/")
+                embed.set_author(name="CIS Data Retriever", url="https://my.cis.edu.sg/")
                 file = discord.File("image.png")
                 embed.set_image(url="attachment://image.png")
                 await ctx.send(file=file, embed=embed)
@@ -157,7 +157,7 @@ async def find(ctx, firstname=None, lastname=''):
             {}
             {}
             """.format(data[_count]["position_title"], data[_count]["email"]))
-            embed.set_author(name="CIS Data Fetcher", url="https://my.cis.edu.sg/")
+            embed.set_author(name="CIS Data Retriever", url="https://my.cis.edu.sg/")
             file = discord.File("image.png")
             embed.set_image(url="attachment://image.png")
             await ctx.send(file=file, embed=embed)
@@ -176,7 +176,7 @@ async def myclasses(ctx):
     {}
     {}
     """.format(classes[0], classes[1], classes[2], classes[3], classes[4], classes[5]))
-    embed.set_author(name="CIS Data Fetcher", url="https://cissg.managebac.com/student/timetables")
+    embed.set_author(name="CIS Data Retriever", url="https://cissg.managebac.com/student/timetables")
     await ctx.send(embed=embed)
 
 client.run("")
