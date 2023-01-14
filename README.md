@@ -1,4 +1,4 @@
-# CIS-Data-Fetcher
+# CIS-Data-Retriever
 To enable web scraping, enter the username and password at https://my.cis.edu.sg/login/ to the payload in main.py.
 ```
 payload={
