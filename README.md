@@ -22,5 +22,6 @@ pip install -r requirements.txt
 # run
 python3 main.py
 ```
+Usage: ```!find <firstname> <lastname>```
 
 To store student data locally in database.json, run dbupdater.py.
