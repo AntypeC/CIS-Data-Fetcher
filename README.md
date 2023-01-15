@@ -22,8 +22,7 @@ pip install -r requirements.txt
 # run
 python3 main.py
 ```
-To store student data locally in database.json, run dbupdater.py (required for ```!searchclass``` function).
-
 Usage: 
 ```!find <firstname> <lastname>```
 ```!searchclass <grade>```
+To store student data locally in database.json, run dbupdater.py (required for ```!searchclass``` function).
