@@ -1,4 +1,6 @@
 # CIS-Data-Retriever
+A live bot is hosted currently, and can be invited to a server by following this link: https://discord.com/api/oauth2/authorize?client id=1064070252306120765&permissions=8&scope=bot
+
 To enable web scraping, enter the username and password at https://my.cis.edu.sg/login/ to the payload in main.py.
 ```
 payload={
